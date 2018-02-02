@@ -1,0 +1,22 @@
+{
+  "name": "node-nginx",
+  "version": "1.0.0",
+  "description": "learning nginx with node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanzola/nodeNGINX.git"
+  },
+  "author": "ryanzola@me.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanzola/nodeNGINX/issues"
+  },
+  "homepage": "https://github.com/ryanzola/nodeNGINX#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
