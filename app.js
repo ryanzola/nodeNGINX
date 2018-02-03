@@ -34,6 +34,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/', (req, res, next) => {
+  res.status(200).send(`${new Date()}`);
+});
+
 app.use('/user', userRoutes);
 
 app.use((req, res, next) => {
